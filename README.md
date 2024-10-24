@@ -4,7 +4,7 @@ The main goal was to study AVL-trees and other structures, practice working with
 PROJECT DESCRIPTION AND USAGE:
 
 The database itself consists of records of Students and has information about their Name, Group and Phone.
-To optimize the speed of operating with data Names info is organized as AVL-tree and Phones are hashed depending on their last K numbers and are also kept as ABL-tree.
+To optimize the speed of operating with data Names info is organized as AVL-tree and Phones are hashed depending on their last K numbers and are also kept as AVL-tree.
 Also there is the same structure as described for each Group (0 - 999).
 So, if you are searching for an object with a known group, the program uses one of 1000 substructures. Group number is defined in conditions.h
 If only the Name/Phone is known, the search is done though the original structure, that's not divided by groups.
