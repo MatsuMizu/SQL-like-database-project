@@ -15,11 +15,11 @@ This database model supports most common simplified SQL commands:
 • insert (<name>, <phone>, <group>);
 • select <fields needed or * sign> [where <condition>] [order by <fields>];
 • delete [where <conditions>];
->, <, =, <=, >= and != can be set as conditions, no symbols are required apart from mentioned in commands themselves.
+\>, <, =, <=, >= and != can be set as conditions, no symbols are required apart from mentioned in commands themselves.
 ... and ..., ... or ..., ... and ... and ..., ... or ... or ... are also supported.
 To set conditions for Name use % and * signs:
 _ - any symbol, % - any amount of any symbols, [n-m] - any symbol between letter n and letter m, [^n-m] - any symbol apart from n-m range.
-To use any of these special symbols or \ as a literal symbol put \ before it: \[ is interpreted as "[".
+To use any of these special symbols or \\ as a literal symbol put \ before it: \\[ is interpreted as "[".
 
 Command examples:
 • insert (Student, 1234567, 208);
