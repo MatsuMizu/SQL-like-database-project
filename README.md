@@ -1,4 +1,6 @@
-This repository is my project on creating a database that can be manipulated using SQL-like coomands.
+# SQL-like database project
+
+This repository is my project on creating a database that can be manipulated with using SQL-like commands.
 The main goal was to study AVL-trees and other structures, practice working with lines and realize, how much effort was put in SQL creation.
 
 PROJECT DESCRIPTION AND USAGE:
