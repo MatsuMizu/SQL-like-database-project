@@ -2,6 +2,7 @@
 
 This repository is my project on creating a database that can be manipulated with using SQL-like commands.
 The main goal was to study AVL-trees and other structures, practice working with lines and realize, how much effort was put in SQL creation.
+There's also a client-server version implemented, all the required files are stored in corresponding .zip archive.
 
 PROJECT DESCRIPTION AND USAGE:
 
